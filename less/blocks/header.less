@@ -1,0 +1,113 @@
+
+.main-navbar-mobile {
+    display: none;
+}
+
+.header-container {
+    display: flex; // justify-content: space-between;
+    background: #f9f9f6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    &__logo {
+        max-width: 342px;
+        width: 100%;
+        background: #0e0f10;
+    }
+    &__main-navbar {
+        margin-left: 46px;
+        margin-top: 25px; // width: 100%;
+    }
+    &__inner-right {
+        // max-width: 460px;
+        // width: 100%;
+        margin-left: 67px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.logo {
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+.sidebar {
+    margin-top: 70px;
+    margin-left: 73px;
+    &__item {
+        margin-top: 22px;
+    }
+    &__item:first-child {
+        margin-top: 0;
+    }
+    &__link {
+        font-size: 1.3125em;
+        color: #747474;
+        letter-spacing: .091em;
+    }
+}
+
+.main-navbar {
+    display: flex;
+    &__item {
+        margin: 0 23px;
+    }
+    &__link {
+        font-size: 1.125em;
+        letter-spacing: 2px;
+        color: #030201;
+    }
+    &__link--active {
+        color: #babaa8;
+        border-bottom: 2px solid #babaa8;
+    }
+}
+
+.languages {
+    margin: 0 28px;
+    &__ua {
+        padding: 10px;
+        border: 2px solid #f2f2ef;
+        border-radius: 50%;
+        display: block;
+        width: 40px;
+        height: 40px;
+        font-size: .875em;
+        color: #000;
+    }
+}
+
+.bag {
+    margin: 0 28px;
+    &__sign {
+        background: #fff;
+        padding: 12px 10px;
+        margin-right: -2px;
+    }
+    &__sign:before {
+        content: '\E547';
+        font-family: 'Material Icons';
+        font-size: 2em;
+        vertical-align: middle;
+        color: #121212;
+    }
+    &__value {
+        background: #fff;
+        padding: 14px 25px;
+        color: #000;
+        font-size: .875em;
+        text-align: left;
+    }
+}
+
+.user-cabinet {
+    margin: 0px 19px;
+    &__link:after {
+        content: '\E87C';
+        font-family: 'Material Icons';
+        font-size: 2em;
+        color: #121212;
+    }
+}
